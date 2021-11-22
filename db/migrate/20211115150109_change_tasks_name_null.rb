@@ -1,5 +1,5 @@
 class ChangeTasksNameNull < ActiveRecord::Migration[5.2]
-  def chang
+  def change
     change_column_null :tasks, :name, false
   end
 end
